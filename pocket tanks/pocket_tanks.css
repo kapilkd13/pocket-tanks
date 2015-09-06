@@ -1,0 +1,74 @@
+#image{margin:   0;
+position:absolute;
+top:0px;
+
+left:0px;
+height:80%;
+width:99.7%;
+
+
+background:url(pocket_tanks.jpg) no-repeat;
+background-size:100% 100%;
+border:2px solid gray;
+
+}
+#p_name{   text-shadow: 2px 2px 2px #F1CCf0;}
+#button_panel{
+
+
+ background:#44a; border-radius:10px; position:absolute; top:80.7%;left:0%; height:19%; width:99.7%; border:2px solid black;}
+
+#move{
+position :absolute;
+top:35%;
+left:25%;
+width:10%;
+height:50%;
+color:white;
+}
+ #move_no{
+
+position :absolute;
+top:75%;
+left:50%;
+width:10%;
+
+}  
+
+#move_text{
+color:white;
+position :absolute;
+top:0%;
+left:20%;
+text-shadow: 5px 5px 5px #FF0000;
+
+
+
+}
+
+.choice{
+color: white;
+border-style:solid;
+background-color:green;
+border-radius: 15px 15px 15px 15px;
+position:absolute;
+border-top;0;
+font-style:italic bold;
+height:28px;
+border-color:white;
+border-width:3px;
+
+
+}
+
+.allbutton{
+display:none;
+
+
+
+}
+.hide{display:none;}
+.pname{
+color:blue;
+font-style:italic;
+}
