@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <script src="jquery-1.11.1.min.js"></script>
+<title> pocket_tanks</title>
+<link rel="stylesheet" href="pocket_tanks.css" media="screen and (min-width:900px)"/>
+
+
+<script src="pocket_tanks.js">
+</script>
+</head>
+<body>
+
+<div id="image"><img src="pocket tank icon2.png" style=" position:absolute; top:10%;left:35%; "  id="icon">
+<input id="pwc" type="button"   value="Play with computer"  class="choice" onclick="pwc() " style="position:absolute; top:45%; left:42%"/>
+<div id="pname1" class="hide">
+<h3 class="pname"  style=" border-radius: 10px 10px  10px 10px; position:absolute; top:41%;left:30%;" >Enter player1's name</h3>
+<input type="text" value=" player1 " id="pl1" size="10"   color="green"  style=" border-radius: 10px 10px  10px 10px; position:absolute; top:45%;left:45%;"/>
+</div>
+<div id="chkbx"   style="  position:absolute; top:45%;left:65%";>
+<input type="checkbox" name="asfsdf"  checked="checked" value=" want to be remember " id="remember"    color="black" ">
+want to be remembered on this pc </div>
+<input id="p2" type="button"   value="2 Player battle"  class="choice" onclick="p2()" style="position:absolute; top:55%; left:43% "/>
+<div id="pname2" class="hide">
+<h3 class="pname"  style=" border-radius: 10px 10px  10px 10px; position:absolute; top:61%;left:30%;" >Enter player2's name</h3>
+<input type="text" value=" player2 " id="pl2" size="10"   color="green"  style=" border-radius: 10px 10px  10px 10px; position:absolute; top:65%;left:45%;"/>
+</div>
+<input id="play" type="button"   value="   Play   "  class="choice hide" onclick="play()" style="position:absolute; top:55%; left:63% "/>
+
+<img src="tankleft.png" style="position:absolute; top:78%; left :10%;"  id="left_tank" >
+<img src="tankright.png" style="position:absolute; top:78%; right: 10%;"  id="right_tank"></div>
+
+<div id =button_panel>
+<div class ="allbutton hide">
+<span> <h1 color="black" id ="p_name" style="position:absolute; left:50%; top:-10%">Player1</h1></span>
+<form id="form" ><input type="button" class="button " value="  fire  "   size="10"id="fi"  onclick="fire()" color="black"  style=" border-radius:10px; position:absolute; top:60%;left:52%;"/>
+<input type="button" value=" angle   "  id="angle"class="button" onclick="hide()"   style="  border-radius:10px 0px 0px 10px; position:absolute; top:20%;left:70.2%;"/>
+  
+<input type="button" value=" speed  " size="1" id="pow"class="button"  color="green"  style=" border-radius:10px 0px 0px 10px; position:absolute; top:70%;left:70.3%;"/>
+
+<input type="text" value=" 60 "  size="1" id="pow-text"class="text_field"  color="green"  style=" border-radius: 0px 10px  10px 0px; position:absolute; top:70%;left:75%;"/>
+<input type="text" value=" 60 "  id="angle_text"class="text_field"  size="1" color="green"  style=" border-radius: 0px 10px 10px 0px; position:absolute; top:20%;left:75%;"/>
+<div id="move">
+<h3 style ="position:absolute; left:38%;top:0%;"  >move</h3>
+<div   style="">
+<input type="button" value="<<"class="button" size="1" onclick="move_left()" color="green"  style=" border-radius:10px 0px 0px 10px; position:absolute; transition:all is linear; top:70%;left:20%;"/>
+
+<span id ="move_no" >3</span>
+<input type="button" value=">>"  size="1" class="button" onclick="move_right()" color="green"  style=" border-radius:0px 10px 10px 0px; position:absolute; transition:all is linear; top:70%;left:65%;"/>
+</div>
+</div>
+<select  name="weapon"class="button" id="bomboption1" style=" border-radius:10px; position:absolute; top:20%;left:27.5%;"  >
+<option value="gola3"  >shadow</option>
+<option value="gola3">  boom</option>
+<option value="gola3">  fire</option>
+<option value="kapil bomb" >  kap</option>
+<option value="big daddy">big daddy</option>
+<option value="aryan"> aryan</option>
+<option value="fear striker">  fear</option>
+</select>
+<audio controls='controls' preload='none' class="lc hide">
+<source src="Luka Chuppi.mp3" type="audio/mpeg"></audio>  
+<select  name="weapon"class="button" id="bomboption2" style=" border-radius:10px; position:absolute; top:20%;left:27.5%;"  >
+<option value="gola3"  >shadow</option>
+<option value="gola3">  boom</option>
+<option value="gola3">  fire</option>
+<option value="kapil bomb" >  kap</option>
+<option value="big daddy">big daddy</option>
+<option value="aryan"> aryan</option>
+<option value="fear striker">  fear</option>
+
+</select>
+</div>
+</div>
+</body>
+</html> 
